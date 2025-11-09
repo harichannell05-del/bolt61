@@ -1,7 +1,6 @@
 import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 import toast from 'react-hot-toast';
 import { trackUserRegistration, trackTherapistRegistration } from '../utils/analyticsManager';
-import { useAuth as useAuthHook } from './AuthContext';
 
 interface User {
   id: string;
